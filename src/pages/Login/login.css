@@ -1,0 +1,53 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-logo img {
+    width: 300px;
+    height: 300px;
+}
+
+.login-right h1 {
+    font-family: 'Roboto Slab';
+    font-size: 50px;
+}
+
+.login-right h4 {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e1e1e6;
+}
+
+.login-loginInputEmail {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1A1A1D;
+    border-radius: 5px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+}
+
+.login-loginInputEmail svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.login-loginInputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #E1E1E6;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
