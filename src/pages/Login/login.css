@@ -4,6 +4,9 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
+
+    background-color: #121214;
+    color: white;
 }
 
 .login-logo img {
@@ -11,9 +14,23 @@
     height: 300px;
 }
 
+.login-right {
+    background-color: #29292E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+
 .login-right h1 {
     font-family: 'Roboto Slab';
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .login-right h4 {
@@ -50,4 +67,60 @@
     font-size: 17px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.login-loginInputPassword {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1A1A1D;
+    border-radius: 5px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.login-loginInputPassword svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.login-loginInputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #E1E1E6;
+    border: none;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.login-right button {
+    width: 98%;
+    background-color: #202024;
+    color: #EFF2F5;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: none;
+
+}
+
+.login-right button:hover {
+    background-color: rgba(255, 255, 255, 0.541);
+    color: black;
+    cursor: pointer;
+}
+
+.login-eye {
+    align-items: center;
+    justify-content: center;
+    font-size: 30;
+    cursor: pointer;
+    margin-right: 10px;
+
 }
