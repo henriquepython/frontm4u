@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './login.css'
 
+
 import { MdAlternateEmail, MdLock } from "react-icons/md";
 import { HiEye, HiEyeOff } from "react-icons/hi";
 
 const Login = () => {
-    const [email, setEmail] = useState("")
+    const [user, setUser] = useState("")
     const [password, setPassword] = useState("")
     const [show, setShow] = useState(false)
 
@@ -29,10 +30,10 @@ const Login = () => {
                 <div className="login-loginInputEmail">
                     <MdAlternateEmail />
                     <input
-                    type="email"
-                    placeholder="Digite um email"
-                    value={email}
-                    onChange={e => setEmail(e.target.value)}
+                    type="text"
+                    placeholder="Digite um User"
+                    value={user}
+                    onChange={e => setUser(e.target.value)}
                     />
                 </div>
 

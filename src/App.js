@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.css';
-import Login from './pages/Login';
+//import Router from "./Routes/routes"
+import Login from "./pages/Login"
+import Student from "./pages/cadastro"
 
-function App() {
-  return (
-    <div className="App">
+
+ const App = () => {
+   return ( 
+   <div>
       <Login />
-    </div>
-      );
+      <Student id="cad" />
+   </div>
+
+ 
+   );
 }
 
 export default App;
+
