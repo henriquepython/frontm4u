@@ -45,10 +45,8 @@ const Student = () => {
         </div>
         <div class="col-md-4">
           <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
+          <input type='text' id="inputState" class="form-select"/>
+            
         </div>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">Zip</label>

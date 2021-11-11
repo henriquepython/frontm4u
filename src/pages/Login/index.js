@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './login.css'
-
+import { Link } from 'react-router-dom';
 
 import { MdAlternateEmail, MdLock } from "react-icons/md";
 import { HiEye, HiEyeOff } from "react-icons/hi";
@@ -66,8 +66,8 @@ const Login = () => {
 
                 <h4>Não tenho conta</h4>
 
-                <button type="submit">
-                    Cadastrar
+                <button type="string">
+                    <Link className="cad" to="/cadastro">Cadastrar</Link>
                 </button>
             </div>
         </div>

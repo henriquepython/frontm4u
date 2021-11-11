@@ -1,17 +1,19 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 import Login from "../pages/Login"
 import Student from "../pages/cadastro"
 
-const Router = () => {
+const Routers = () => {
     return(
-    <BrowserRouter>
-        <Routes>
-            <Route path='/' exact component={Login}/>
-            <Route path='/cadastro'component={Student}/> 
-        </Routes>
-    </BrowserRouter>
+    
+        <BrowserRouter>
+                <Routes>
+                    <Route exact path="/" element={<Login/>}/>
+                    <Route path="/cadastro" element={<Student/>}/>
+                </Routes>
+        </BrowserRouter>     
+    
     );
 }
 
-export default Router;
+export default Routers;
